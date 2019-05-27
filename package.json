@@ -16,6 +16,6 @@
   "main": "./src/public-api.ts",
   "private": false,
   "dependencies": {
-    "@harmony102/foo": "0.0.56"
+    "@harmony102/common": "0.0.56"
   }
 }
