@@ -1,0 +1,18 @@
+{
+	"extends": "./../../tsconfig.json",
+	"compilerOptions": {
+		"baseUrl": "./",
+		"outDir": "./dist/out-tsc",
+		"importHelpers": true,
+		"typeRoots": [
+			"node_modules/@types"
+		],
+		"paths": {
+			"@harmony102/foo": [
+				"./../../node_modules/@harmony102/foo/dist/lib",
+				"node_modules/@harmony102/foo",
+				"./../foo/src/public-api.ts"
+			]
+		}
+	}
+}
