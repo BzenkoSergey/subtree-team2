@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 
-import { LibModule } from '@harmony102/foo';
+import { LibModule } from '@harmony102/common';
 
 import { Team2RoutingModule } from './root-routing.module';
 import { Team2Component } from './root.component';
