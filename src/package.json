@@ -3,10 +3,8 @@
   "version": "0.0.57",
   "peerDependencies": {
     "@angular/common": "7.2.10",
-	"@angular/core": "7.2.10"
-  },
-  "dependencies": {
-	"@harmony102/common": "0.0.56"
+	"@angular/core": "7.2.10",
+	"@harmony102/common": "*"
   },
   "publishConfig": {
     "access": "public"
